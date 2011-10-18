@@ -1,0 +1,66 @@
+html { background: #444;}
+body, input, a { font-family:sans-serif; font-size:12px; color:#AAA}
+a.btn {
+    -moz-transition: color .2s linear;
+    -webkit-transition: color .2s linear;
+    background: -moz-linear-gradient(top, #666, #444) #222;
+    background: -webkit-linear-gradient(top, #666, #444) #222;
+    border:1px solid #222;
+    border-radius:4px;
+    box-shadow:1px 1px 2px 0 #222;
+    display:inline-block;
+    font-family:sans-serif;
+    padding:4px 8px;
+    text-decoration:none;
+}
+
+a.btn:hover {
+    color:#DDD;
+}
+
+form.login {
+    background: #666;
+    border-radius: 5px;
+    display: inline-block;
+    font-family: sans-serif;
+    padding:10px;
+    box-shadow:1px 1px 2px 0 #222;
+}
+
+.login div {
+    margin-bottom: 7px;
+}
+
+.login input {
+    outline: none;
+    border: none;
+    background: #444;
+    display: block;
+    padding: 4px;
+    margin:0;
+}
+
+.login input[type=text] {
+    border-radius: 5px 5px 0 0;
+}
+
+.login input[type=password] {
+    border-radius: 0 0 5px 5px;
+}
+
+div.read, div.unread {
+    border-radius: 2px;
+    width: 4px;
+    height: 4px;
+    padding: 0;
+    margin: 0;
+    display:inline-block;
+}
+
+.read {
+    background: #0F0;
+}
+
+.unread {
+    background: #F00;
+}
