@@ -1,13 +1,13 @@
-html { background: #444;}
-body, input, a { font-family:sans-serif; font-size:12px; color:#AAA}
+html { background: #fff;}
+body, input, a { font-family:sans-serif; font-size:12px; color:#000}
 a.btn {
     -moz-transition: color .2s linear;
     -webkit-transition: color .2s linear;
-    background: -moz-linear-gradient(top, #666, #444) #222;
-    background: -webkit-linear-gradient(top, #666, #444) #222;
-    border:1px solid #222;
+    background: -moz-linear-gradient(top, #eee, #ddd);
+    background: -webkit-linear-gradient(top, #eee, #ddd);
+    border:1px solid #555;
     border-radius:4px;
-    box-shadow:1px 1px 2px 0 #222;
+    box-shadow:1px 1px 2px 0 #999;
     display:inline-block;
     font-family:sans-serif;
     padding:4px 8px;
@@ -15,7 +15,7 @@ a.btn {
 }
 
 a.btn:hover {
-    color:#DDD;
+    color:#f00;
 }
 
 form.login {
