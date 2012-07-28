@@ -1,1 +1,14 @@
-<p>Clearly this is page 3.</p>
+    <label for="counted">Text!</label><input id="counted" type="text" placeholder="limited text" maxlength="30"/><span id="counter"></span>
+  	
+		<script>
+			var input = document.getElementById('counted');
+			var counter = document.getElementById('counter');
+			input.oninput = function(event) {
+				counter.textContent = input.value.length;
+				if (input.value.length >= input.maxLength) {
+					input.style.backgroundColor = '#FF0000';
+				} else {
+					input.style.backgroundColor = '';
+				}
+			}
+		</script>
